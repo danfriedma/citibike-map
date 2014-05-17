@@ -1,6 +1,7 @@
 var http = require('http')
 	, express = require('express')
-	, app = express();
+	, app = express()
+	, port = process.env.PORT || 5000;
 
 app.set('views', __dirname + '/app/views');
 app.engine('html', require('ejs').renderFile);
@@ -14,4 +15,4 @@ app.get('/', function(req, res) {
 });
 
 var server = http.createServer(app)
-server.listen(3000);
+server.listen(port);
