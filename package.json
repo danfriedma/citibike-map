@@ -12,8 +12,6 @@
     "jsdom": "^0.10.5",
     "jshint": "^2.5.0",
     "leaflet": "^0.7.2",
-    "leaflet-engine": "^0.4.5",
-    "leaflet-headless": "^0.0.3",
     "leaflet-pip": "^0.0.1",
     "lodash": "^2.4.1",
     "node": "^0.0.0",
