@@ -9,7 +9,6 @@
     "ejs": "^1.0.0",
     "express": "^4.2.0",
     "graceful-fs": "^2.0.3",
-    "jsdom": "^0.10.5",
     "jshint": "^2.5.0",
     "leaflet": "^0.7.2",
     "leaflet-pip": "^0.0.1",
