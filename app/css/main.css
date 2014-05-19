@@ -96,6 +96,10 @@ path.leaflet-clickable {
 	fill: none;
 }
 
+p {
+	font-weight: normal;
+}
+
 .about {
 	margin: 1em;
 }
