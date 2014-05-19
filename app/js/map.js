@@ -66,7 +66,7 @@
         var weekday = 1;
         var hour = 0;
 
-        var regex = /(M\w+,\w+)(L)([0-9]+)(,)([0-9]+)(L)([0-9]+)(,)([0-9]+)/;
+        var regex = /(M\w+,(-)?\w+)(L)([0-9]+)(,)([0-9]+)(L)([0-9]+)(,)([0-9]+)/;
         var sub = "$1Q $3 $5 $7 $9";
 
         function updateedge() {
