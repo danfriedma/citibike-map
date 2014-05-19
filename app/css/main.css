@@ -101,7 +101,7 @@ h2 {
 .button {
 	display: block;
 	padding: 0.3em;
-	width: 90%;
+	width: 85%;
 	margin: 0.6em auto 0.2em auto;
 	padding: 0.2em;
 	border: none;
@@ -126,8 +126,8 @@ h2 {
 	.button {
 		display: inline-block;
 		font-size: 0.8em;
-		width: 40%;
-		margin: 0.6em 1em 0.2em 1em;
-		padding: 0.3em;
+		width: 45%;
+		margin: 0.8em 0.2em 0.2em 0.2em;
+		padding: 0.6em;
 	}
 }
