@@ -1,16 +1,14 @@
 html,
-body,
+body
 {
-	padding: 0;
+	padding: 0 !important;
 	margin: 0 !important;
 	width: 100%;
 	height: 100%;
 }
 
-#map {
-	height:100%;
 
-}
+
 .info {
 	padding: 6px 8px;
 	font: 14px/16px Arial, Helvetica, sans-serif;
@@ -58,6 +56,8 @@ path.leaflet-clickable {
 .container {
 	width: 100%;
 	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
 	position: absolute;
 	bottom: 0px;
 }
@@ -68,27 +68,14 @@ path.leaflet-clickable {
 	width: 85%;
 }
 
-#time {
-	display: block;
-	text-align: center;
-	font-size: 3em;
-	font-weight: bold;
-}
+
 
 .button-container {
 	display: block;
+	text-align: center;
 	margin: 0 auto;
 	padding: 0;
-}
-
-.button {
-	display: block;
-	margin: 0.8em auto 0.2em auto;
-	padding: 0.3em;
-	width: 90%;
-	border: none;
-	background: transparent;
-	background-color: lightblue;
+	width: 100%;
 }
 
 .edge {
@@ -104,11 +91,43 @@ h2 {
 	margin: 1em;
 }
 
-@media (max-width: 480px) {
-	#time {
-		font-size: 2em
+#time {
+	font-size: 3em;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.button {
+	display: block;
+	padding: 0.3em;
+	width: 90%;
+	margin: 0.6em auto 0.2em auto;
+	padding: 0.2em;
+	border: none;
+	background: transparent;
+	background-color: lightblue;
+}
+
+#map {
+	height: 100%;
+}
+
+@media (max-width: 767px) {
+
+	#map {
+		height:60%;
 	}
+
+	#time {
+		font-size: 2em;
+	}
+
 	.button {
-		width: 50%;
+		display: inline-block;
+		font-size: 0.8em;
+		width: 40%;
+		margin: 0.6em 1em 0.2em 1em;
+		padding: 0.3em;
 	}
 }
